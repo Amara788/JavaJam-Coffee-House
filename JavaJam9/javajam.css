@@ -1,0 +1,355 @@
+#mobile {
+    display: none;
+}
+#desktop {
+    display: inline;
+}
+body{
+	background-image:url("background.gif");
+	color:#221811;
+	font-family:Verdana, Ariel, sans-serif ;
+	background-color:#FCEBB6;
+	}
+header{ 
+	background-image:url("javajamlogo.jpg");
+	background-color:#D2B48C; 
+	background-repeat:no-repeat;
+	color:#000000;
+	height:100px;
+	}
+* { box-sizing: border-box; }
+#heroroad
+{
+    background-image:url("heroroad.jpg");
+    background-size:100%;
+    height:250px;
+}
+#heromugs
+{
+    background-image:url("heromugs.jpg");
+    background-size:100%;
+    height:250px;
+}
+#heroguitar
+{
+    background-image:url("heroguitar.jpg");
+    background-size:100%;
+    height:250px;
+}
+main{
+padding-left: 0px;
+padding-right:0px;	
+margin-left:200px;
+padding-top:0px;
+background-color:#FEF6C2;  	
+}
+
+main h2{
+	padding-left:3px;
+padding-right:2px;
+}
+main h3{
+	padding-left:3px;
+padding-right:2px;
+}
+main p{
+	padding-left:3px;
+padding-right:2px;
+}
+main div{
+	padding-left:3px;
+padding-right:2px;
+}
+main ul{
+	padding-left:3px;
+padding-right:2px;
+}
+main dl{
+	padding-left:3px;
+padding-right:2px;
+}
+
+nav {
+	float: left;
+	width: 200px;
+	text-align:center;
+	font-weight:bold;
+	letter-spacing:0.1em;
+	padding-top:10px;
+	
+	
+}
+nav a:link { color: #FEF6C2; }
+nav a:visited{color: #D2B48C;}
+nav a:hover{color:#CC9933;}
+
+nav ul {
+	list-style-type:none;
+	margin-left:0;
+	padding-left:0px;
+}
+nav a{
+	text-decoration: none;
+	padding: 10px;
+	font-weight: bold;
+}
+#wrapper{
+	
+min-width:900px;
+max-width:1280px;
+margin-left: auto;
+margin-right:auto;
+box-shadow:3px 3px 3px;
+background-color: #231814;
+	
+}
+
+h1{
+margin-bottom:10px;
+text-align: left;
+padding-top:20px;
+padding-bottom:20px;
+font-size:3em;
+padding-left:220px;
+  }
+
+
+footer{
+	font-style: italic;
+	text-align:center;
+	background-color:#D2B48C; 
+	color:#000000;
+	font-size:.60em;
+	padding-bottom:10px;
+	border: 2px solid #221811; 
+}
+
+#imag2 {
+margin-right: 30px;
+padding-right:30px;
+}
+
+* {
+/*border: 1px solid white;*/
+}
+
+.details{
+	overflow:auto;
+}
+
+#container, #texts{
+text-align:center;
+}
+
+h4{
+text-align:left;
+background-color:#D2B48C; 
+color:#000000;
+font-size:1.2em;
+border-bottom: solid black;
+background-color:#D2B48C;
+padding-bottom:5px;
+padding-left:40px;
+padding-right:10px;
+font-size:bold;
+}
+
+header, nav, main, footer { display: block; }
+.floatleft
+{
+	
+    float:left;
+    padding-right:20px;
+    padding-bottom:20px;
+}
+
+h2{
+margin-top:0px;
+padding-top:10px;
+
+	margin-left:50px;
+}
+
+p{
+	
+	margin-left:40px;
+	
+}
+h3{
+	margin-left:45px;
+}
+ul{
+	margin-left:40px;
+}
+#address{
+	margin-left:40px;
+}
+dt{
+	margin-left:40px;
+}
+dd{
+	margin-left:80px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+	body{
+		margin:0;
+		background-image:none;
+	}
+	#wrapper{
+		width:auto;
+		min-width:0;
+		margin:0;
+		padding:0;
+		box-shadow:none;
+	
+	}
+	
+	header{
+		border-bottom: 5px solid #FEF6C2;
+	}
+	
+	h1{
+		margin-top:0;
+		margin-bottom: 1em;
+		padding: 1em;
+		padding-bottom: 1em;
+		font-size: 2.5em;
+		
+	}
+	
+	
+	nav{
+		float: none;
+		width:auto;
+		padding-top: 0;
+		margin:10px;
+		font-size: 1.3em;
+		
+	}
+	
+	nav li{
+		display: inline-block;
+		
+	}
+	
+	nav a{
+		
+		padding:1em;
+		width: 8em;
+		font-weight: bold;
+		border-style: none;
+	}
+	nav ul{
+		padding:0;
+		margin:0;
+		
+	}
+	#heroroad, #heromugs, #heroguitar {
+        margin: 0;
+        padding: 0;
+    }
+	main{
+		padding: 0;
+		margin: 0;
+		font-size: 90%;
+	}
+}
+/*
+media query for smaller devices 
+*/
+
+@media only screen and (max-width: 768px) {
+	header {
+        background-image: url("javajammini.jpg");
+        height: 128px;
+    }
+	
+	h1{
+		font-size: 2em;
+        text-align: center;
+        padding-left: 0;
+	}
+	nav {
+		margin:0;
+		
+	}
+	nav a{
+		display: block;
+		padding: 0.2em;
+		width:auto;
+		border-bottom: 1px solid #FEF6C2;
+
+	}
+	nav li{
+		display: block;
+		
+	}
+	main{
+		padding: 1px;
+		
+	}
+	h2{
+		padding-top: 0.5em;
+		padding-right: 0;
+		padding-bottom:0;
+		padding-left: 0.5em;
+		margin-right: 0.5em;
+		
+	}
+	.details{
+		padding-left:0;
+		padding-right: 0;
+	}
+	#heroroad, #heromugs, #heroguitar {
+        background-image: none;
+		height: auto;
+		
+    }
+	.floatleft{
+		padding-right: 0.5em;
+		padding-left: 0.5em;
+
+	}
+	
+}
+table{
+	
+	margin-left:40px;
+	width: 90%;
+	border: 0;
+	background-color: #ffffcc;
+}
+td, th {
+	padding:10px;
+	
+	
+}
+tr:nth-of-type(odd){
+	background-color:  #d2b48c;
+}
+form{
+	padding: 2em;
+}
+label{
+	float: left;
+	display: block;
+	text-align: right;
+	width: 8em;
+	padding-right: 1em;
+	
+}
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+#mySubmit {
+	margin-left:9.5em;
+}
+
+
+
+
+
+
